@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg,#3494E6,#EC6EAD);
+ }
+ .home{
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+ }
+ .home h1{
+    font-family: 'Mea Culpa', cursive;
+    font-size: 9vh;
+ }
+.container{
+    display:flex;
+}
+#img1,#img2{
+    margin-left: 5vh;
+    width: 45vw;
+    height: 55vh;
+    border-radius: 2vw;
+}
+.box1,.box2{
+     display: flex;
+     flex-direction: column;
+     margin-top: 10vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 17vw;
+    font-size: 5vh;
+}
